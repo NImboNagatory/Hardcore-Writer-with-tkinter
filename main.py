@@ -1,4 +1,4 @@
-from func import Hard_core_writer, ico
+from func import Hard_core_writer
 from tkinter import Tk
 
 
@@ -23,8 +23,6 @@ screen.grid(row=0, column=0)
 screen.grid_rowconfigure(1, weight=1)
 
 screen.grid_columnconfigure(1, weight=1)
-
-ico(gui)
 
 loop_on = True
 
