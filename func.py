@@ -144,9 +144,3 @@ class Hard_core_writer(Frame):
         self.timer_tick()
         self.bind_any_kay(self.master)
         self.bind_any_kay_release(self.master)
-
-
-def ico(gui):
-    icon = Image.open('data/red-circle.png')
-    photo = ImageTk.PhotoImage(icon)
-    return gui.wm_iconphoto(False, photo)
